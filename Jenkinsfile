@@ -6,7 +6,7 @@ pipeline {
    sh 'echo "Hello World"'
    sh 'echo "This is stage 1 - Compile"'
   }
-  stage('Test"){
+  stage('Test'){
    steps{
     sh 'echo "Now we are testing the code"'
    }
